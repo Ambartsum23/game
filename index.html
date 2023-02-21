@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ტესტირება</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>ტესტირება</h1>
+      <h3>
+      ინსტრუქცის: დააჭირეთ ფერად წრეწირს
+      </h3>
+      <a href="#" class="start"
+      id="start">ტესტირების დაწყება</a>
+    </div>
+
+    <div class="screen">
+      <h1>აირჩიე სირთულე დროის მიხედვით</h1>
+      <ul class="time-list" id="time-list">
+        <li>
+          <button class="time-btn" data-time="5">
+            10 წმ
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="40">
+            40 წმ
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="60">
+            60 წმ
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="screen">
+      <a href="#" class="restart"
+    id="restart">ტესტირების თავიდან დაწყება</a>
+      <h3>დარჩა <span id="time">00:00</span></h3>
+      <div class="board" id="board"></div>
+      <script src="main.js"></script>
+    </div>
+  </body>
+</html>
